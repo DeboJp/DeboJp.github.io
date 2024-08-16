@@ -447,6 +447,13 @@ header {
   background: rgba(255, 255, 255, 0.9);
   padding: 15px;
 }
+/*Remove this if dont want overflow bar for Organizations/Affiliations*/
+#portfolio .portfolio-container {
+    max-height: 650px; /* Fixed height for the container */
+    overflow-y: auto;  /* Enable vertical scrolling */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
 
 #portfolio .portfolio-item .portfolio-info h4 {
   font-size: 18px;
