@@ -16,6 +16,14 @@ const projects = [
         devPostLink: "#",
         gitHubLink: "https://github.com/DeboJp/medicine-list"
     },{
+        title: "Analysis of Gender Income Disparities in the U.S. (2005-2019)",
+        extra: "R & Statistical Ana.",
+        date: "1, May 2024",
+        description: "A study on the gender income gap in the United States from 2005 to 2019, analyzing trends in median individual income for males and females. The study utilizes statistical tests and regression analysis to explore the persistence of income disparities, revealing patterns typically hidden behind data.",
+        imageUrl: "images/GenderIncomeDisparity.gif",
+        devPostLink: "https://devpost.com/software/gender-income-analysis",
+        gitHubLink: "https://github.com/DeboJp/GenderIncomeAnalysis"
+    }, {
         title: "TEKKO - AI Teeko Game Player",
         extra: "Terminal Interface",
         date: "23, April 2024",
@@ -47,7 +55,15 @@ const projects = [
         imageUrl: "images/Mnist3.png",
         devPostLink: "#",
         gitHubLink: "#"
-    },{
+    }, {
+        title: "Interactive Hand-Tracking Drawing Application",
+        extra: "OpenCV",
+        date: "28, March 2024",
+        description: "A Python-based interactive drawing application utilizing computer vision and hand-tracking technologies. Leveraging OpenCV and MediaPipe, the application allows users to draw on the screen with hand gestures in real-time. This module is ideal for integration into educational tools, creative projects, and accessibility-focused applications. <b> — SPRING BREAK 2024'  </b>",
+        imageUrl: "images/HandTracking.gif",
+        devPostLink: "",
+        gitHubLink: "https://github.com/DeboJp/ComputerVisionNotebook"
+    }, {
         title: "Linear Regression Analysis on Lake Mendota Ice Coverage",
         extra: "Data Analysis",
         date: "15, March 2024",
@@ -73,7 +89,7 @@ const projects = [
         gitHubLink: "https://github.com/DeboJp/EduHelp"
     },{
         title: "Hierarchical Clustering on Socioeconomic Data",
-        extra: "Data Processing",
+        extra: "Data Proce...",
         date: "22, February 2024",
         description: "A data science project involving the implementation of hierarchical agglomerative clustering (HAC) to analyze and visualize socioeconomic similarities between countries. The project includes processing real-world data, calculating feature vectors, normalizing data, and generating a dendrogram to display the clustering results.",
         imageUrl: "images/HCluster.png",
@@ -89,7 +105,7 @@ const projects = [
         gitHubLink: ""
     },{
         title: "Probabilistic Language Identification - Text Analysis and Classification",
-        extra: "Bayes Rule",
+        extra: "Bayes TH.",
         date: "8, February 2024",
         description: "Applies probabilistic methods to identify the language of a given text as either English or Spanish. Implements a digital shredder to count character frequencies, using Bayes' theorem for language classification, and handling the computational challenges of underflow with logarithmic transformations. A practical application of Bayesian inference in text classification tasks.",
         imageUrl: "images/Language.png",
@@ -120,6 +136,14 @@ const projects = [
         devPostLink: "https://devpost.com/software/econsense",
         gitHubLink: "#ProjectsID"
     },{
+        title: "Vaccine Appointment Reservation System",
+        extra: "Database Design",
+        date: "2, June 2023",
+        description: "A command-line based application for scheduling vaccine appointments, developed in Java and connected to an SQL database hosted on Microsoft Azure. The system manages patient and caregiver data, vaccine inventory, and appointment scheduling, using secure methods for handling sensitive information such as passwords. The project emphasizes database design and Java application development.",
+        imageUrl: "images/VaccineScheduler.png",
+        devPostLink: "",
+        gitHubLink: ""
+    },{
         title: "Husky Maps - Data Structures and Algorithms in Practice",
         extra: "Web App",
         date: "April - June 2023",
@@ -128,6 +152,7 @@ const projects = [
         devPostLink: "#",
         gitHubLink: "https://github.com/DeboJp/Maps_Engine_Seattle/tree/main"
     }
+    
     // Add more projects here as objects
 ];
 
